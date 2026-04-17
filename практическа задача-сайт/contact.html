@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audi – Контакти</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+     <img src="best_logo-removebg-preview.png" alt="VT Logo" class="logo">
+    <h1>Контакти</h1>
+</header>
+
+<nav>
+    <a href="index.html">Начало</a>
+    <a href="models.html">Модели</a>
+    <a href="tech.html">Технологии</a>
+    <a href="contact.html" class="active">Контакти</a>
+</nav>
+
+<main>
+
+    <div class="container">
+        <h2>Свържи се с нас</h2>
+        <p><b>Email:</b>Viktor.Todorov1903@gmail.com</p>
+        <p><b>Телефон:</b> +359 888 868 ****</p>
+    </div>
+
+    <div class="contact-form">
+        <h2>Изпрати съобщение</h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="df438a09-2b19-4444-b13f-c0fda5cb17eb">
+
+            <label for="name">Име и фамилия:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email-адрес:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Съобщение:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn">Изпрати</button>
+        </form>
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2026 Виктор Тодоров | Дипломен проект – Audi</p>
+</footer>
+
+</body>
+</html>
